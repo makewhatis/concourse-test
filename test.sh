@@ -9,6 +9,7 @@ wget -qO- https://get.docker.com/ | sh
 apt-get -y install python-pip
 pip install docker-compose
 
+ls -l $current
 cd $current/concourse-docker-compose
 rake # wait awhile, grab a coffee
 cd example/
