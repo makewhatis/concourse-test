@@ -1,0 +1,12 @@
+---
+platform: linux
+
+image: docker:///golang#1.6-alpine
+
+inputs:
+- name: bs
+
+run:
+  # path: ls
+  # args: [-alR]
+  path: bs/test.sh
