@@ -9,4 +9,4 @@ ls -l /var
 
 cat /etc/passwd
 
-cat /tmp/omg
+nc -vz localhost 7777
