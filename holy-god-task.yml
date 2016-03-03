@@ -1,7 +1,7 @@
 ---
 platform: linux
 
-image: docker:///ubuntu:latest
+image: docker:///ubuntu#14.04
 
 inputs:
 - name: bs
