@@ -1,7 +1,7 @@
 #!/bin/bash
 
 apt-get update
-apt-get install rake
+apt-get install -y rake
 
 cd ../concourse-docker-compose
 rake # wait awhile, grab a coffee
