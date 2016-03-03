@@ -9,4 +9,4 @@ inputs:
 run:
   # path: ls
   # args: [-alR]
-  path: bs/test.sh
+  path: test.sh
